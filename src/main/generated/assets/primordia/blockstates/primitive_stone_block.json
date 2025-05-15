@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "primordia:block/primitive_stone_block"
+    }
+  }
+}

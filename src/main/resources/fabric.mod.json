@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "primordia",
+  "version": "${version}",
+  "name": "Primordia",
+  "description": "An Mod from Ovilli",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/primordia/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "net.ovilli.primordia.PrimordiaDataGenerator"
+    ],
+    "client": [
+      "net.ovilli.primordia.PrimordiaClient"
+    ],
+    "main": [
+      "net.ovilli.primordia.Primordia"
+    ]
+  },
+  "mixins": [
+    "primordia.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

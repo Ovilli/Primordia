@@ -1,0 +1,22 @@
+{
+  "item.primordia.wooden_club": "Holzkeule",
+  "item.primordia.sharp_wood": "Spitzes Holz",
+  "item.primordia.fruit_bowl": "Obstschale",
+  "item.primordia.wooden_chisel": "Holzmeißel",
+  "item.primordia.wooden_spear": "Holzspeer",
+  "item.primordia.stone_spear": "Steinspeer",
+  "item.primordia.spear_quiver": "Speerköcher",
+  "item.primordia.sharp_stone": "Scharfer Stein",
+  "item.primordia.robust_stick": "Robuster Stock",
+  "item.primordia.stone_club": "Steinkeule",
+  "item.primordia.fist_wedge": "Faustkeil",
+  "item.primordia.mammoth_tooth": "Mammut-Zahn",
+  "item.primordia.animal_fur": "Tierfell",
+  "item.primordia.bone_knife": "Knochenmesser",
+  "item.primordia.stone_arrows": "Steinpfeile",
+  "item.primordia.bone_spear": "Knochenspeer",
+  "itemgroup.primordia.primordia_blocks": "Primordia Blocks",
+  "itemgroup.primordia.primordia_item": "Primordia Items"
+}
+
+

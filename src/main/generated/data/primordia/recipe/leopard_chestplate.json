@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "L": {
+      "item": "primordia:animal_fur"
+    }
+  },
+  "pattern": [
+    "L L",
+    "LLL",
+    "LLL"
+  ],
+  "result": {
+    "count": 1,
+    "id": "primordia:leopard_chestplate"
+  }
+}

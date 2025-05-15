@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": {
+      "item": "minecraft:cobblestone"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "C",
+    "S",
+    "S"
+  ],
+  "result": {
+    "count": 1,
+    "id": "primordia:stone_arrows"
+  }
+}

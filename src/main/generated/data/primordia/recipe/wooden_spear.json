@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "W": {
+      "item": "primordia:sharp_wood"
+    }
+  },
+  "pattern": [
+    "  W",
+    " S ",
+    "S  "
+  ],
+  "result": {
+    "count": 1,
+    "id": "primordia:wooden_spear"
+  }
+}

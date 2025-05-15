@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "S": {
+      "item": "minecraft:cobblestone"
+    },
+    "W": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    " S ",
+    "W  ",
+    "   "
+  ],
+  "result": {
+    "count": 1,
+    "id": "primordia:fist_wedge"
+  }
+}

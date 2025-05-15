@@ -1,0 +1,36 @@
+/summon minecraft:sheep
+/gamemode survival
+/time set day
+/gamemode survival
+/give Player382 minecraft:wooden_pickaxe
+/time set day
+/gamemode s
+/gamemode 1
+/gamemode survival
+/effect give Player481 minecraft:hunger
+/time set day
+/effect give Player923 minecraft:hunger
+/effect give Player923 minecraft:hunger infinite 255
+/effect clear
+/effect give Player923 minecraft:hunger infinite 255
+/effect give @p minecraft:hunger infinite 255
+/effect clear
+/effect give @p minecraft:hunger infinite 255
+/effect clear
+/damage Player877 10 minecraft:fall
+/damage Player877 11 minecraft:fall
+/damage Player877 12 minecraft:fall
+/damage Player877 22 minecraft:fall
+/damage Player877 20 minecraft:fall
+/damage Player877 18 minecraft:fall
+/damage Player877 19 minecraft:fall
+/time set day
+/give @p primordia:wooden_chisel
+/summon minecraft:creeper
+/give @a minecraft:command_block
+/setblock -47 82 67 minecraft:command_block
+/give Player225 minecraft:totem_of_undying
+/give Player225 minecraft:command_block
+/kill 4ee42a31-ee1b-43be-be36-7a1dbbb2e553
+/kill @e[type= minecraft:iron_golem]
+/kill @e[type= minecraft:creeper]

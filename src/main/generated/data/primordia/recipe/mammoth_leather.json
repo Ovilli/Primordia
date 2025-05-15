@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "primordia:mammoth_tooth"
+    },
+    {
+      "item": "primordia:animal_fur"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "primordia:mammoth_leather"
+  }
+}
