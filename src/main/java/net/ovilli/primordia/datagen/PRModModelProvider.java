@@ -24,8 +24,8 @@ public class PRModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(PRModItems.SHARP_WOOD, Models.GENERATED);
         itemModelGenerator.register(PRModItems.FRUIT_BOWL, Models.GENERATED);
         itemModelGenerator.register(PRModItems.WOODEN_CHISEL, Models.GENERATED);
-        itemModelGenerator.register(PRModItems.WOODEN_SPEAR, Models.GENERATED);
-        itemModelGenerator.register(PRModItems.STONE_SPEAR, Models.GENERATED);
+
+
         itemModelGenerator.register(PRModItems.SPEAR_QUIVER, Models.GENERATED);
         itemModelGenerator.register(PRModItems.SHARP_STONE, Models.GENERATED);
         itemModelGenerator.register(PRModItems.ROBUST_STICK, Models.GENERATED);

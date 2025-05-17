@@ -1,0 +1,6 @@
+{
+  "parent": "primordia:item/stone_spear",
+  "textures": {
+    "layer0": "tutorialmod:item/stone_spear_pulling_0"
+  }
+}

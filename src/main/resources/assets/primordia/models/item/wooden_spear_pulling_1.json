@@ -1,0 +1,6 @@
+{
+  "parent": "primordia:item/wooden_spear",
+  "textures": {
+    "layer0": "primordia:item/wooden_spear_pulling_1"
+  }
+}

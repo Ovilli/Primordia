@@ -17,7 +17,7 @@ public class PRModItems {
     public static final Item FRUIT_BOWL = registerItem("fruit_bowl", new Item(new Item.Settings().food(PRModFoodComponents.FRUIT_BOWL).rarity(Rarity.RARE)));
     public static final Item WOODEN_CHISEL = registerItem("wooden_chisel",new Item(new Item.Settings().maxDamage(1)));
     public static final Item WOODEN_SPEAR = registerItem("wooden_spear",new SpearItem(new Item.Settings()));
-    public static final Item STONE_SPEAR = registerItem("stone_spear",new Item(new Item.Settings()));
+    public static final Item STONE_SPEAR = registerItem("stone_spear",new SpearItem(new Item.Settings().maxDamage(255)));
     public static final Item SPEAR_QUIVER = registerItem("spear_quiver",new Item(new Item.Settings()));
     public static final Item SHARP_STONE = registerItem("sharp_stone", new Item(new Item.Settings()));
     public static final Item ROBUST_STICK = registerItem("robust_stick", new Item(new Item.Settings()));
