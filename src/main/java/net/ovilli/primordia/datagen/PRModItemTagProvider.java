@@ -16,7 +16,7 @@ public class PRModItemTagProvider extends FabricTagProvider.ItemTagProvider {
 
     @Override
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
-        //getOrCreateTagBuilder(ModTags.Items.TRANSFORMABLE_ITEMS)
+        //getOrCreateTagBuilder(PRModTags.Items.STONE_AGE_ITEMS)
                 //.add(PRModItems.WOODEN_CLUB);
     }
 }

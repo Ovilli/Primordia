@@ -43,6 +43,7 @@ public class PRModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(PRModItems.LEOPARD_LEGGINGS, Models.GENERATED);
         itemModelGenerator.register(PRModItems.LEOPARD_HELMET, Models.GENERATED);
         itemModelGenerator.register(PRModItems.LEOPARD_BOOTS, Models.GENERATED);
+        itemModelGenerator.register(PRModItems.LEOPARD_LEATHER, Models.GENERATED);
 
         itemModelGenerator.register(PRModItems.MAMMOTH_LEATHER_CHESTPLATE, Models.GENERATED);
         itemModelGenerator.register(PRModItems.MAMMOTH_LEATHER_LEGGINGS, Models.GENERATED);
@@ -79,6 +80,10 @@ public class PRModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(PRModItems.BONE_AXE, Models.GENERATED);
         itemModelGenerator.register(PRModItems.STONE_BLADE, Models.GENERATED);
         itemModelGenerator.register(PRModItems.SLING_SHOT, Models.GENERATED);
+
+        itemModelGenerator.register(PRModItems.BONE_PICKAXE, Models.GENERATED);
+        itemModelGenerator.register(PRModItems.BONE_SWORD, Models.GENERATED);
+
     }
 
 }

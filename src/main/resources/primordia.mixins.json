@@ -4,6 +4,7 @@
   "package": "net.ovilli.primordia.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
+
   ],
   "injectors": {
     "defaultRequire": 1

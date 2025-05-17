@@ -2,6 +2,7 @@ package net.ovilli.primordia;
 
 import net.fabricmc.api.ModInitializer;
 import net.ovilli.primordia.blocks.PRModBlocks;
+import net.ovilli.primordia.entity.PRModEntities;
 import net.ovilli.primordia.items.PRModItemGroups;
 import net.ovilli.primordia.items.PRModItems;
 import org.slf4j.Logger;
@@ -16,5 +17,6 @@ public class Primordia implements ModInitializer {
         PRModBlocks.registerModBlocks();
         PRModItems.registerModItems();
         PRModItemGroups.registerItemGroups();
+        PRModEntities.registerModEntities();
     }
 }

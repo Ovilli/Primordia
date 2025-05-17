@@ -75,6 +75,9 @@ public class PRModItemGroups {
                         entries.add(PRModItems.BONE_AXE);
                         entries.add(PRModItems.STONE_BLADE);
                         entries.add(PRModItems.SLING_SHOT);
+                        entries.add(PRModItems.BONE_PICKAXE);
+                        entries.add(PRModItems.BONE_SWORD);
+                        entries.add(PRModItems.LEOPARD_LEATHER);
                     }).build());
 
     public static final ItemGroup PRIMORIDA_BLOCK_GROUP = Registry.register(Registries.ITEM_GROUP,

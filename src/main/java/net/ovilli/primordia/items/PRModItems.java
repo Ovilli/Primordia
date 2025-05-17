@@ -1,13 +1,13 @@
 package net.ovilli.primordia.items;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroups;
+import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.Rarity;
 import net.ovilli.primordia.Primordia;
+import net.ovilli.primordia.items.custom.SpearItem;
 
 public class PRModItems {
     //public static final Item PINK_GARNET = registerItem("pink_garnet", new Item(new Item.Settings()));
@@ -16,7 +16,7 @@ public class PRModItems {
     public static final Item SHARP_WOOD = registerItem("sharp_wood", new Item(new Item.Settings()));
     public static final Item FRUIT_BOWL = registerItem("fruit_bowl", new Item(new Item.Settings().food(PRModFoodComponents.FRUIT_BOWL).rarity(Rarity.RARE)));
     public static final Item WOODEN_CHISEL = registerItem("wooden_chisel",new Item(new Item.Settings().maxDamage(1)));
-    public static final Item WOODEN_SPEAR = registerItem("wooden_spear",new Item(new Item.Settings()));
+    public static final Item WOODEN_SPEAR = registerItem("wooden_spear",new SpearItem(new Item.Settings()));
     public static final Item STONE_SPEAR = registerItem("stone_spear",new Item(new Item.Settings()));
     public static final Item SPEAR_QUIVER = registerItem("spear_quiver",new Item(new Item.Settings()));
     public static final Item SHARP_STONE = registerItem("sharp_stone", new Item(new Item.Settings()));
@@ -25,25 +25,18 @@ public class PRModItems {
     public static final Item FIST_WEDGE = registerItem("fist_wedge", new Item(new Item.Settings()));
     public static final Item MAMMOTH_TOOTH = registerItem("mammoth_tooth", new Item(new Item.Settings()));
     public static final Item ANIMAL_FUR = registerItem("animal_fur", new Item(new Item.Settings()));
-    public static final Item BONE_KNIFE = registerItem("bone_knife", new Item(new Item.Settings()));
+
     public static final Item SHARP_ARROWS = registerItem("sharped_arrows", new Item(new Item.Settings()));
     public static final Item STONE_ARROWS = registerItem("stone_arrows", new Item(new Item.Settings()));
-    public static final Item BONE_SPEAR = registerItem("bone_spear", new Item(new Item.Settings()));
     public static final Item STONE_CHISEL = registerItem("stone_chisel", new Item(new Item.Settings()));
 
-    public static final Item LEOPARD_CHESTPLATE = registerItem("leopard_chestplate", new Item(new Item.Settings()));
-    public static final Item LEOPARD_LEGGINGS = registerItem("leopard_leggings", new Item(new Item.Settings()));
-    public static final Item LEOPARD_HELMET = registerItem("leopard_helmet", new Item(new Item.Settings()));
-    public static final Item LEOPARD_BOOTS = registerItem("leopard_boots", new Item(new Item.Settings()));
+    public static final Item LEOPARD_LEATHER = registerItem("leopard_leather", new Item(new Item.Settings()));
 
-    public static final Item MAMMOTH_LEATHER_CHESTPLATE = registerItem("mammoth_leather_chestplate", new Item(new Item.Settings()));
-    public static final Item MAMMOTH_LEATHER_LEGGINGS = registerItem("mammoth_leather_leggings", new Item(new Item.Settings()));
-    public static final Item MAMMOTH_LEATHER_HELMET = registerItem("mammoth_leather_helmet", new Item(new Item.Settings()));
-    public static final Item MAMMOTH_LEATHER_BOOTS = registerItem("mammoth_leather_boots", new Item(new Item.Settings()));
+
     public static final Item MAMMOTH_LEATHER = registerItem("mammoth_leather", new Item(new Item.Settings()));
 
     public static final Item STONE_BOW = registerItem("stone_bow", new Item(new Item.Settings().maxDamage(250)));
-    public static final Item BONE_BOW = registerItem("bone_bow", new Item(new Item.Settings().maxDamage(250)));
+
     public static final Item SHORTBOW = registerItem("shortbow", new Item(new Item.Settings().maxDamage(200)));
     public static final Item LONGBOW = registerItem("longbow", new Item(new Item.Settings().maxDamage(300)));
     public static final Item PRIMITIVE_CROSSBOW = registerItem("primitive_crossbow", new Item(new Item.Settings().maxDamage(300)));
@@ -62,15 +55,59 @@ public class PRModItems {
     public static final Item COOKED_MAMMOTH_MEAT = registerItem("cooked_mammoth_meat", new Item(new Item.Settings().food(PRModFoodComponents.COOKED_MAMMOTH_MEAT)));
     public static final Item RAW_MAMMOTH_MEAT = registerItem("raw_mammoth_meat", new Item(new Item.Settings().food(PRModFoodComponents.RAW_MAMMOTH_MEAT)));
 
-    public static final Item BONE_CLUB = registerItem("bone_club", new Item(new Item.Settings().maxDamage(7)));
+
     public static final Item FLINT_KNIFE = registerItem("flint_knife", new Item(new Item.Settings()));
     public static final Item OBSIDIAN_KNIFE = registerItem("obsidian_knife", new Item(new Item.Settings()));
     public static final Item BONE_HAMMER = registerItem("bone_hammer", new Item(new Item.Settings()));
     public static final Item STONE_HAMMER = registerItem("stone_hammer", new Item(new Item.Settings()));
     public static final Item STONE_AXE = registerItem("stone_axe", new Item(new Item.Settings()));
-    public static final Item BONE_AXE = registerItem("bone_axe", new Item(new Item.Settings()));
+
     public static final Item STONE_BLADE = registerItem("stone_blade", new Item(new Item.Settings()));
     public static final Item SLING_SHOT = registerItem("sling_shot", new Item(new Item.Settings()));
+
+
+    public static final Item BONE_CLUB = registerItem("bone_club", new Item(new Item.Settings().maxDamage(7)));
+    public static final Item BONE_BOW = registerItem("bone_bow", new Item(new Item.Settings().maxDamage(250)));
+    public static final Item BONE_SPEAR = registerItem("bone_spear", new Item(new Item.Settings()));
+
+    public static final Item BONE_SWORD = registerItem("bone_sword",
+            new SwordItem(PRModToolMaterials.BONE, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(PRModToolMaterials.BONE, 3, -2.4f))));
+    public static final Item BONE_AXE = registerItem("bone_axe",
+            new AxeItem(PRModToolMaterials.BONE, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(PRModToolMaterials.BONE, 6, -2.3f))));
+    public static final Item BONE_PICKAXE = registerItem("bone_pickaxe",
+            new AxeItem(PRModToolMaterials.BONE, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(PRModToolMaterials.BONE, 1, -2.8f))));
+    public static final Item BONE_KNIFE = registerItem("bone_knife",
+            new SwordItem(PRModToolMaterials.BONE, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(PRModToolMaterials.BONE, 4, -1.4f))));
+
+    public static final Item MAMMOTH_LEATHER_HELMET = registerItem("mammoth_leather_helmet",
+            new ArmorItem(PRModArmorMaterials.MAMMOTH_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(15))));
+    public static final Item MAMMOTH_LEATHER_CHESTPLATE = registerItem("mammoth_leather_chestplate",
+            new ArmorItem(PRModArmorMaterials.MAMMOTH_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(15))));
+    public static final Item MAMMOTH_LEATHER_LEGGINGS = registerItem("mammoth_leather_leggings",
+            new ArmorItem(PRModArmorMaterials.MAMMOTH_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(15))));
+    public static final Item MAMMOTH_LEATHER_BOOTS = registerItem("mammoth_leather_boots",
+            new ArmorItem(PRModArmorMaterials.MAMMOTH_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(15))));
+
+    public static final Item LEOPARD_HELMET = registerItem("leopard_helmet",
+            new ArmorItem(PRModArmorMaterials.MAMMOTH_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(15))));
+    public static final Item LEOPARD_CHESTPLATE = registerItem("leopard_chestplate",
+            new ArmorItem(PRModArmorMaterials.MAMMOTH_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(15))));
+    public static final Item LEOPARD_LEGGINGS = registerItem("leopard_leggings",
+            new ArmorItem(PRModArmorMaterials.MAMMOTH_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(15))));
+    public static final Item LEOPARD_BOOTS = registerItem("leopard_boots",
+            new ArmorItem(PRModArmorMaterials.MAMMOTH_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(15))));
 
 
 
