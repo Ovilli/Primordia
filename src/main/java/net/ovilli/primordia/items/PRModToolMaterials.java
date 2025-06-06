@@ -15,12 +15,15 @@ public enum PRModToolMaterials implements ToolMaterial {
     BONE(PRModTags.Blocks.NEEDS_BONE_TOOL,
             1200, 5.0F, 4.0F, 22, () -> Ingredient.ofItems(Items.BONE));
 
+
+
     private final TagKey<Block> inverseTag;
     private final int itemDurability;
     private final float miningSpeed;
     private final float attackDamage;
     private final int enchantability;
     private final Supplier<Ingredient> repairIngredient;
+
 
     PRModToolMaterials(final TagKey<Block> inverseTag, final int itemDurability, final float miningSpeed,
                        final float attackDamage, final int enchantability, final Supplier<Ingredient> repairIngredient) {

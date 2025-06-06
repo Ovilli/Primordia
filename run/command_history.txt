@@ -1,25 +1,3 @@
-/summon minecraft:wit
-/summon minecraft:wither
-/time set day
-/effect give Player711 minecraft:night_vision infinite 255
-/give Player711 minecraft:elytra
-/give Player711 minecraft:firework_rocket 64
-/give Player711 minecraft:elytra
-/give Player711 minecraft:firework_rocket 64
-/summon primordia:spear_entity
-/summon minecraft:sheep
-/summon minecraft:sheept
-/summon minecraft:wit
-/summon minecraft:wither
-/locate structure minecraft:village_desert
-/tp @s 848 ~ 192
-/give Player906 primordia:wooden_spear 349
-/tick rate 1
-/tick freeze
-/give Player690 minecraft:command_block
-/tick step 1s
-/give Player690 minecraft:command_block
-/summon primordia:wooden_spear_entity
 /tick step 1s
 /tick freeze
 /tick unfreeze
@@ -48,3 +26,25 @@
 /time set day
 /give Player258 minecraft:arrow
 /give Player258 bow
+/summon minecraft:sheep
+/tick query
+/tick freeze
+/tick step
+/tick stept
+/tick step
+/time set day
+/summon minecraft:blaze
+/time set day
+/summon minecraft:sniffer
+/summon minecraft:sheep
+/ga
+/summon minecraft:sheep
+/time set day
+/summon minecraft:sheep
+/give Player70 minecraft:golden_apple
+/tick freeze
+/tick sprint
+/tick step
+/tick unfreeze
+/summon minecraft:blaze
+/time set day

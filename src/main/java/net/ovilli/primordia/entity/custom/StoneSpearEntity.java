@@ -44,7 +44,7 @@ public class StoneSpearEntity extends PersistentProjectileEntity {
 
         if (!this.getWorld().isClient()) {
             this.getWorld().sendEntityStatus(this, (byte)3);
-            this.discard();
+            //this.discard();
         }
     }
 

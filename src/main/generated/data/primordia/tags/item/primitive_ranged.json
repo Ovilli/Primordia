@@ -1,0 +1,10 @@
+{
+  "values": [
+    "primordia:shortbow",
+    "primordia:longbow",
+    "primordia:stone_bow",
+    "primordia:bone_bow",
+    "primordia:primitive_crossbow",
+    "primordia:blowpipe"
+  ]
+}

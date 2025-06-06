@@ -37,7 +37,7 @@ public class PRModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(PRModItems.SHARP_ARROWS, Models.GENERATED);
         itemModelGenerator.register(PRModItems.STONE_ARROWS, Models.GENERATED);
         itemModelGenerator.register(PRModItems.BONE_SPEAR, Models.GENERATED);
-        itemModelGenerator.register(PRModItems.STONE_CHISEL, Models.GENERATED);
+
 
         itemModelGenerator.register(PRModItems.LEOPARD_CHESTPLATE, Models.GENERATED);
         itemModelGenerator.register(PRModItems.LEOPARD_LEGGINGS, Models.GENERATED);
@@ -72,11 +72,6 @@ public class PRModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(PRModItems.RAW_MAMMOTH_MEAT, Models.GENERATED);
 
         itemModelGenerator.register(PRModItems.BONE_CLUB, Models.GENERATED);
-        itemModelGenerator.register(PRModItems.FLINT_KNIFE, Models.GENERATED);
-        itemModelGenerator.register(PRModItems.OBSIDIAN_KNIFE, Models.GENERATED);
-        itemModelGenerator.register(PRModItems.BONE_HAMMER, Models.GENERATED);
-        itemModelGenerator.register(PRModItems.STONE_HAMMER, Models.GENERATED);
-        itemModelGenerator.register(PRModItems.STONE_AXE, Models.GENERATED);
         itemModelGenerator.register(PRModItems.BONE_AXE, Models.GENERATED);
         itemModelGenerator.register(PRModItems.STONE_BLADE, Models.GENERATED);
         itemModelGenerator.register(PRModItems.SLING_SHOT, Models.GENERATED);

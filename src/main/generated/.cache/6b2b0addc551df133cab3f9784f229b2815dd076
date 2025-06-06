@@ -1,1 +1,9 @@
-// 1.21.1	2025-05-16T16:51:56.7803364	Primordia/Tags for minecraft:item
+// 1.21.1	2025-05-20T17:42:50.0161074	Primordia/Tags for minecraft:item
+e39db1ca7cff6e244496b0d573ce4013cc6d3321 data\primordia\tags\item\primitive_ranged.json
+e24484a50abfb73b239a06fe57b63a8c1682fa1a data\primordia\tags\item\bone_tools.json
+d52633c62fafba1c5fed6e920d151acff8a29669 data\primordia\tags\item\chisels.json
+f9c7c33a8bb910b0c8d12b0688a20cb2a37c2a82 data\primordia\tags\item\bone_armor.json
+ad9ee5b3c14320c63d4fee132b0985142f6dd200 data\primordia\tags\item\stone_age_items.json
+9cf3d5b9c3233096a3a534e159395dd4a87ada70 data\primordia\tags\item\sharpened_projectiles.json
+eb8da9d983a74bab14474437f63544e835879dfe data\primordia\tags\item\throwables.json
+15b4053c118f1a62d8be9e192c10b07fd161340c data\primordia\tags\item\darts.json

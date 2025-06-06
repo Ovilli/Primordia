@@ -35,6 +35,24 @@ public class PRModArmorMaterials extends ArmorMaterials {
                 map.put(ArmorItem.Type.BODY, 4);
             }), 20, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, () -> Ingredient.ofItems(PRModItems.LEOPARD_LEATHER),
                     List.of(new ArmorMaterial.Layer(Identifier.of(Primordia.MOD_ID, "leopard"))), 0,0));
+    public static final RegistryEntry<ArmorMaterial> FUR_CLOAK_MATERIAL = registerArmorMaterial("fur_cloak_material",
+            () -> new ArmorMaterial(Util.make(new EnumMap<>(ArmorItem.Type.class), map -> {
+                map.put(ArmorItem.Type.CHESTPLATE, 6);
+                map.put(ArmorItem.Type.BODY, 4);
+            }), 20, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, () -> Ingredient.ofItems(PRModItems.FUR_CLOAK),
+                    List.of(new ArmorMaterial.Layer(Identifier.of(Primordia.MOD_ID, "fur_cloak"))), 0,0));
+    public static final RegistryEntry<ArmorMaterial> BONE_MASK_MATERIAL = registerArmorMaterial("bone_mask_material",
+            () -> new ArmorMaterial(Util.make(new EnumMap<>(ArmorItem.Type.class), map -> {
+                map.put(ArmorItem.Type.HELMET, 2);
+                map.put(ArmorItem.Type.BODY, 4);
+            }), 20, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, () -> Ingredient.ofItems(PRModItems.BONE_MASK),
+                    List.of(new ArmorMaterial.Layer(Identifier.of(Primordia.MOD_ID, "bone_mask"))), 0,0));
+    public static final RegistryEntry<ArmorMaterial> FEATHERED_HEADDRESS_MATERIAL = registerArmorMaterial("feathered_headdress_material",
+            () -> new ArmorMaterial(Util.make(new EnumMap<>(ArmorItem.Type.class), map -> {
+                map.put(ArmorItem.Type.HELMET, 2);
+                map.put(ArmorItem.Type.BODY, 4);
+            }), 20, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, () -> Ingredient.ofItems(PRModItems.FEATHERED_HEADDRESS),
+                    List.of(new ArmorMaterial.Layer(Identifier.of(Primordia.MOD_ID, "feathered_headdress"))), 0,0));
 
 
     public static RegistryEntry<ArmorMaterial> registerArmorMaterial(String name, Supplier<ArmorMaterial> material) {

@@ -33,7 +33,7 @@ public class PRModItemGroups {
                         entries.add(PRModItems.SHARP_ARROWS);
                         entries.add(PRModItems.STONE_ARROWS);
                         entries.add(PRModItems.BONE_SPEAR);
-                        entries.add(PRModItems.STONE_CHISEL);
+
 
                         entries.add(PRModItems.LEOPARD_CHESTPLATE);
                         entries.add(PRModItems.LEOPARD_LEGGINGS);
@@ -67,11 +67,6 @@ public class PRModItemGroups {
                         entries.add(PRModItems.RAW_MAMMOTH_MEAT);
 
                         entries.add(PRModItems.BONE_CLUB);
-                        entries.add(PRModItems.FLINT_KNIFE);
-                        entries.add(PRModItems.OBSIDIAN_KNIFE);
-                        entries.add(PRModItems.BONE_HAMMER);
-                        entries.add(PRModItems.STONE_HAMMER);
-                        entries.add(PRModItems.STONE_AXE);
                         entries.add(PRModItems.BONE_AXE);
                         entries.add(PRModItems.STONE_BLADE);
                         entries.add(PRModItems.SLING_SHOT);

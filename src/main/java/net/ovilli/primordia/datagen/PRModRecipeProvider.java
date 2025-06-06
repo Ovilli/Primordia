@@ -152,15 +152,7 @@ public class PRModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.BONE), conditionsFromItem(Items.BONE))
                 .offerTo(exporter);
 
-        // Stone Chisel (sharp stone + stick)
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, PRModItems.STONE_CHISEL)
-                .pattern(" S ")
-                .pattern(" W ")
-                .pattern("   ")
-                .input('S', PRModItems.SHARP_STONE)
-                .input('W', Items.STICK)
-                .criterion(hasItem(PRModItems.SHARP_STONE), conditionsFromItem(PRModItems.SHARP_STONE))
-                .offerTo(exporter);
+
 
         // Animal Fur (obtained from animals, can be crafted into a bundle)
         ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, PRModItems.ANIMAL_FUR)
